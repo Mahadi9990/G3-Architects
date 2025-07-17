@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+/* import file */
+
+/* dark 02 */
+.text_gray{
+    color: #424242;
+}
+/* dark 03 */
+.text_light_gray{
+    color: #fff;
+}
+.bg_header_color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* color all */
+.dflex{
+    display: flex;
+}
+/* display flex */
+
+/* header area */
+nav{
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+.brand{
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav ul .nav_item{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul .nav_item a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
